@@ -82,7 +82,7 @@ const LoginPage = () => {
           <div className="w-12 h-12 rounded-xl bg-primary-foreground/20 backdrop-blur-sm flex items-center justify-center">
             <Users className="w-7 h-7 text-primary-foreground" />
           </div>
-          <span className="text-2xl font-display font-bold text-primary-foreground">MentorHub</span>
+          <span className="text-2xl font-display font-bold text-primary-foreground">PeerAxis</span>
         </Link>
 
         <div className="relative z-10">

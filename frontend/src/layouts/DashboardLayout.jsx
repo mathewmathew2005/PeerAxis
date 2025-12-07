@@ -92,7 +92,7 @@ const DashboardLayout = ({ children }) => {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
               <Users className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="text-lg font-display font-semibold">MentorHub</span>
+            <span className="text-lg font-display font-semibold">PeerAxis</span>
           </Link>
         </div>
 
@@ -174,7 +174,7 @@ const DashboardLayout = ({ children }) => {
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
                   <Users className="w-5 h-5 text-primary-foreground" />
                 </div>
-                <span className="text-lg font-display font-semibold">MentorHub</span>
+                <span className="text-lg font-display font-semibold">PeerAxis</span>
               </Link>
               <Button variant="ghost" size="icon" onClick={() => setSidebarOpen(false)}>
                 <X className="w-5 h-5" />

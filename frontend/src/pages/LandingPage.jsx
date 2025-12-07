@@ -65,7 +65,7 @@ const LandingPage = () => {
               <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg">
                 <Users className="w-6 h-6 text-primary-foreground" />
               </div>
-              <span className="text-xl font-display font-bold">MentorHub</span>
+              <span className="text-xl font-display font-bold">PeerAxis</span>
             </div>
             <div className="flex items-center space-x-4">
               <Link to="/login">
@@ -173,10 +173,10 @@ const LandingPage = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl sm:text-4xl font-display font-bold mb-6">
-                Why Choose MentorHub?
+                Why Choose PeerAxis?
               </h2>
               <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-                We've designed MentorHub to be more than just a mentoring platform. It's a complete ecosystem that fosters growth, builds connections, and celebrates achievements.
+                We've designed PeerAxis to be more than just a mentoring platform. It's a complete ecosystem that fosters growth, builds connections, and celebrates achievements.
               </p>
               <div className="space-y-4">
                 {benefits.map((benefit, index) => (
@@ -247,10 +247,10 @@ const LandingPage = () => {
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
                 <Users className="w-5 h-5 text-primary-foreground" />
               </div>
-              <span className="text-lg font-display font-semibold">MentorHub</span>
+              <span className="text-lg font-display font-semibold">PeerAxis</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2024 MentorHub. All rights reserved. B.Tech Mini Project
+              © 2024 PeerAxis. All rights reserved. B.Tech Mini Project
             </p>
           </div>
         </div>
