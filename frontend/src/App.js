@@ -21,6 +21,7 @@ import FindMentorPage from './pages/FindMentorPage';
 import SessionsPage from './pages/SessionsPage';
 import SessionDetailsPage from './pages/SessionDetailsPage';
 import GoalsPage from './pages/GoalsPage';
+import SkillExchangePage from './pages/SkillExchangePage';
 import MessagesPage from './pages/MessagesPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import ProfilePage from './pages/ProfilePage';
