@@ -44,7 +44,13 @@ const ProfilePage = () => {
             <div className="flex-1 text-center sm:text-left">
               <h3 className="text-2xl font-display font-bold mb-1">{user.name}</h3>
               <p className="text-muted-foreground mb-2">{user.email}</p>
-              <Badge className="capitalize">{user.role}</Badge>
+              <div className="flex items-center justify-center sm:justify-start space-x-2">
+                <Badge className="capitalize">{user.role}</Badge>
+                <Badge variant="secondary" className="flex items-center space-x-1">
+                  <TrendingUp className="w-3 h-3" />
+                  <span>{totalCredits} Credits</span>
+                </Badge>
+              </div>
             </div>
           </div>
         </CardContent>
