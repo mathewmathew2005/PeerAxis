@@ -122,6 +122,17 @@ const App = () => {
           />
 
           <Route
+            path="/skill-exchange"
+            element={
+              <PrivateRoute>
+                <DashboardLayout>
+                  <SkillExchangePage />
+                </DashboardLayout>
+              </PrivateRoute>
+            }
+          />
+
+          <Route
             path="/messages"
             element={
               <PrivateRoute>
