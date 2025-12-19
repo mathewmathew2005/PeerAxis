@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuth } from '../hooks/useAuth';
-import { Camera, Mail, Phone, MapPin, Calendar, Award } from 'lucide-react';
+import { useSkillExchange } from '../hooks/useSkillExchange';
+import { Camera, Mail, Phone, MapPin, Calendar, Award, TrendingUp } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '../components/ui/card';
 import { Button } from '../components/ui/button';
 import { Avatar, AvatarFallback, AvatarImage } from '../components/ui/avatar';
