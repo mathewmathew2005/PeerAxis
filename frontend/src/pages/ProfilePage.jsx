@@ -15,6 +15,7 @@ import { toast } from 'sonner';
 
 const ProfilePage = () => {
   const { user } = useAuth();
+  const { totalCredits } = useSkillExchange(user);
 
   const handleUpdateProfile = () => {
     toast.success('Profile updated successfully');
