@@ -48,6 +48,7 @@ const DashboardLayout = ({ children }) => {
     const commonItems = [
       { icon: Calendar, label: 'Sessions', path: '/sessions' },
       { icon: Target, label: 'Goals', path: '/goals' },
+      { icon: RefreshCw, label: 'Skill Exchange', path: '/skill-exchange' },
       { icon: MessageSquare, label: 'Messages', path: '/messages', badge: 1 },
       { icon: Trophy, label: 'Leaderboard', path: '/leaderboard' },
       { icon: Lightbulb, label: 'Recommendations', path: '/recommendations' },
