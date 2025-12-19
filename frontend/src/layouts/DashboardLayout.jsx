@@ -17,7 +17,8 @@ import {
   Menu,
   X,
   User,
-  Shield
+  Shield,
+  RefreshCw
 } from 'lucide-react';
 import { Button } from '../components/ui/button';
 import {
